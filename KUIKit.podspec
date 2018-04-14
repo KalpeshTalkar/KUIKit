@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KUIKit"
-  s.version      = "1.0.2"
+  s.version      = "1.2.0"
   s.summary      = "KUIKit contains customisable UI components that are customisable via UIStoryboard."
 
   # This description is used to generate tags and improve search results.
