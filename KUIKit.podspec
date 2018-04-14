@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KUIKit"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "KUIKit contains customisable UI components that are customisable via UIStoryboard."
 
   # This description is used to generate tags and improve search results.
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
   s.platform     = :ios, "10.0"
-
+  s.swift_version = '4.0'
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
