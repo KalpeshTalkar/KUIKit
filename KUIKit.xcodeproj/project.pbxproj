@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4372E742081F3FE009F4F91 /* KUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4372E732081F3FE009F4F91 /* KUIKit.m */; };
+		C4372E752081F3FE009F4F91 /* KUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4372E722081F3FE009F4F91 /* KUIKit.h */; };
+		C4372E802081F506009F4F91 /* KButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E7F2081F506009F4F91 /* KButton.swift */; };
+		C4372E822081F525009F4F91 /* KView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E812081F525009F4F91 /* KView.swift */; };
+		C4372E842081F537009F4F91 /* KCircularProgressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E832081F537009F4F91 /* KCircularProgressbar.swift */; };
+		C4372E862081F568009F4F91 /* KTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E852081F568009F4F91 /* KTextField.swift */; };
+		C4372E882081F5BE009F4F91 /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E872081F5BE009F4F91 /* UIUtils.swift */; };
+		C4372E8A2081F65B009F4F91 /* KProgressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E892081F65B009F4F91 /* KProgressbar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4372E6D2081F3FE009F4F91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C4372E752081F3FE009F4F91 /* KUIKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C4372E6F2081F3FE009F4F91 /* libKUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4372E722081F3FE009F4F91 /* KUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUIKit.h; sourceTree = "<group>"; };
+		C4372E732081F3FE009F4F91 /* KUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUIKit.m; sourceTree = "<group>"; };
+		C4372E7B2081F4EC009F4F91 /* KUIKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KUIKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4372E7F2081F506009F4F91 /* KButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KButton.swift; sourceTree = "<group>"; };
+		C4372E812081F525009F4F91 /* KView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KView.swift; sourceTree = "<group>"; };
+		C4372E832081F537009F4F91 /* KCircularProgressbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCircularProgressbar.swift; sourceTree = "<group>"; };
+		C4372E852081F568009F4F91 /* KTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTextField.swift; sourceTree = "<group>"; };
+		C4372E872081F5BE009F4F91 /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		C4372E892081F65B009F4F91 /* KProgressbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KProgressbar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4372E6C2081F3FE009F4F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4372E662081F3FE009F4F91 = {
+			isa = PBXGroup;
+			children = (
+				C4372E712081F3FE009F4F91 /* KUIKit */,
+				C4372E702081F3FE009F4F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4372E702081F3FE009F4F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4372E6F2081F3FE009F4F91 /* libKUIKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4372E712081F3FE009F4F91 /* KUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C4372E7E2081F4F3009F4F91 /* UI Components */,
+				C4372E722081F3FE009F4F91 /* KUIKit.h */,
+				C4372E732081F3FE009F4F91 /* KUIKit.m */,
+				C4372E7B2081F4EC009F4F91 /* KUIKit-Bridging-Header.h */,
+			);
+			path = KUIKit;
+			sourceTree = "<group>";
+		};
+		C4372E7E2081F4F3009F4F91 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				C4372E812081F525009F4F91 /* KView.swift */,
+				C4372E7F2081F506009F4F91 /* KButton.swift */,
+				C4372E852081F568009F4F91 /* KTextField.swift */,
+				C4372E832081F537009F4F91 /* KCircularProgressbar.swift */,
+				C4372E892081F65B009F4F91 /* KProgressbar.swift */,
+				C4372E872081F5BE009F4F91 /* UIUtils.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4372E6E2081F3FE009F4F91 /* KUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4372E782081F3FE009F4F91 /* Build configuration list for PBXNativeTarget "KUIKit" */;
+			buildPhases = (
+				C4372E6B2081F3FE009F4F91 /* Sources */,
+				C4372E6C2081F3FE009F4F91 /* Frameworks */,
+				C4372E6D2081F3FE009F4F91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KUIKit;
+			productName = KUIKit;
+			productReference = C4372E6F2081F3FE009F4F91 /* libKUIKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4372E672081F3FE009F4F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kalpesh Talkar";
+				TargetAttributes = {
+					C4372E6E2081F3FE009F4F91 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C4372E6A2081F3FE009F4F91 /* Build configuration list for PBXProject "KUIKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4372E662081F3FE009F4F91;
+			productRefGroup = C4372E702081F3FE009F4F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4372E6E2081F3FE009F4F91 /* KUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4372E6B2081F3FE009F4F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4372E742081F3FE009F4F91 /* KUIKit.m in Sources */,
+				C4372E802081F506009F4F91 /* KButton.swift in Sources */,
+				C4372E842081F537009F4F91 /* KCircularProgressbar.swift in Sources */,
+				C4372E882081F5BE009F4F91 /* UIUtils.swift in Sources */,
+				C4372E822081F525009F4F91 /* KView.swift in Sources */,
+				C4372E8A2081F65B009F4F91 /* KProgressbar.swift in Sources */,
+				C4372E862081F568009F4F91 /* KTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4372E762081F3FE009F4F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4372E772081F3FE009F4F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4372E792081F3FE009F4F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX4EW5ND9A;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KUIKit/KUIKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4372E7A2081F3FE009F4F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX4EW5ND9A;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KUIKit/KUIKit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4372E6A2081F3FE009F4F91 /* Build configuration list for PBXProject "KUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4372E762081F3FE009F4F91 /* Debug */,
+				C4372E772081F3FE009F4F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4372E782081F3FE009F4F91 /* Build configuration list for PBXNativeTarget "KUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4372E792081F3FE009F4F91 /* Debug */,
+				C4372E7A2081F3FE009F4F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4372E672081F3FE009F4F91 /* Project object */;
+}
