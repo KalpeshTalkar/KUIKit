@@ -44,6 +44,11 @@ public class KProgressbar: UIView {
         prepareUI()
     }
 
+    public override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        prepareUI()
+    }
+
     // MARK: - Prepare UI
     private func prepareUI() {
         if progressView == nil {

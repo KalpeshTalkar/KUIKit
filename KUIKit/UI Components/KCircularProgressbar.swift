@@ -88,6 +88,11 @@ public class KCircularProgressbar: UIView, CAAnimationDelegate {
         configure()
     }
 
+    public override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        configure()
+    }
+
     // MARK: - layout subviews
     override public func layoutSubviews() {
         super.layoutSubviews()
@@ -158,7 +163,7 @@ public class KCircularProgressbar: UIView, CAAnimationDelegate {
     /// Set progress.
     ///
     /// - Parameters:
-    ///   - progress: progress to set in percentage. (max is 100)
+    ///   - progress: progress to set. (progress should be between 0 to 1)
     ///   - animated: pass true to show progress change animation.
     ///   - animationDuration: duration for animation.
     ///   - completion: called after animation completion.
@@ -194,7 +199,7 @@ public class KCircularProgressbar: UIView, CAAnimationDelegate {
     /// Set progress.
     ///
     /// - Parameters:
-    ///   - progress: progress to set in percentage. (max is 100)
+    ///   - progress: progress to set. (progress should be between 0 to 1)
     ///   - animated: pass true to show progress change in animation.
     ///   - completion: called after animation is completed.
     func setProgress(progress: Float, animated: Bool, completion: AnimationCompleted?) {
@@ -203,12 +208,12 @@ public class KCircularProgressbar: UIView, CAAnimationDelegate {
 
     // MARK: - CAAnimationDelegate
     public func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
-        // Remove animation
-        progressLayer.removeAnimation(forKey: DrawCircleAnimation)
         // Call the animation completion block
         if nil != animationBlock {
             animationBlock!(true)
         }
+        // Remove animation
+        progressLayer.removeAnimation(forKey: DrawCircleAnimation)
     }
 
 }

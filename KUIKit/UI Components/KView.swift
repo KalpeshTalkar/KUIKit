@@ -78,6 +78,11 @@ public class KView: UIView {
         setupUI()
     }
 
+    public override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        setupUI()
+    }
+
     // MARK: - Layout
     override public func layoutSubviews() {
         super.layoutSubviews()

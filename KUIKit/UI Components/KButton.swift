@@ -80,6 +80,11 @@ public class KButton: UIButton {
         super.init(coder: aDecoder)
         setupUI()
     }
+
+    public override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        setupUI()
+    }
     
     // MARK: - Layout
     override public func layoutSubviews() {
