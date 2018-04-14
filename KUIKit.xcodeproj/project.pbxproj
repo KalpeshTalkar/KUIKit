@@ -12,9 +12,9 @@
 		C4372E802081F506009F4F91 /* KButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E7F2081F506009F4F91 /* KButton.swift */; };
 		C4372E822081F525009F4F91 /* KView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E812081F525009F4F91 /* KView.swift */; };
 		C4372E842081F537009F4F91 /* KCircularProgressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E832081F537009F4F91 /* KCircularProgressbar.swift */; };
-		C4372E862081F568009F4F91 /* KTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E852081F568009F4F91 /* KTextField.swift */; };
 		C4372E882081F5BE009F4F91 /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E872081F5BE009F4F91 /* UIUtils.swift */; };
 		C4372E8A2081F65B009F4F91 /* KProgressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E892081F65B009F4F91 /* KProgressbar.swift */; };
+		C4372EAC2082370B009F4F91 /* KTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372EAB2082370B009F4F91 /* KTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,9 +38,9 @@
 		C4372E7F2081F506009F4F91 /* KButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KButton.swift; sourceTree = "<group>"; };
 		C4372E812081F525009F4F91 /* KView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KView.swift; sourceTree = "<group>"; };
 		C4372E832081F537009F4F91 /* KCircularProgressbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCircularProgressbar.swift; sourceTree = "<group>"; };
-		C4372E852081F568009F4F91 /* KTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTextField.swift; sourceTree = "<group>"; };
 		C4372E872081F5BE009F4F91 /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
 		C4372E892081F65B009F4F91 /* KProgressbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KProgressbar.swift; sourceTree = "<group>"; };
+		C4372EAB2082370B009F4F91 /* KTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTextField.swift; path = "../../../KUIKit Example/Pods/KUIKit/KUIKit/UI Components/KTextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,9 @@
 		C4372E7E2081F4F3009F4F91 /* UI Components */ = {
 			isa = PBXGroup;
 			children = (
+				C4372EAB2082370B009F4F91 /* KTextField.swift */,
 				C4372E812081F525009F4F91 /* KView.swift */,
 				C4372E7F2081F506009F4F91 /* KButton.swift */,
-				C4372E852081F568009F4F91 /* KTextField.swift */,
 				C4372E832081F537009F4F91 /* KCircularProgressbar.swift */,
 				C4372E892081F65B009F4F91 /* KProgressbar.swift */,
 				C4372E872081F5BE009F4F91 /* UIUtils.swift */,
@@ -154,11 +154,11 @@
 			files = (
 				C4372E742081F3FE009F4F91 /* KUIKit.m in Sources */,
 				C4372E802081F506009F4F91 /* KButton.swift in Sources */,
+				C4372EAC2082370B009F4F91 /* KTextField.swift in Sources */,
 				C4372E842081F537009F4F91 /* KCircularProgressbar.swift in Sources */,
 				C4372E882081F5BE009F4F91 /* UIUtils.swift in Sources */,
 				C4372E822081F525009F4F91 /* KView.swift in Sources */,
 				C4372E8A2081F65B009F4F91 /* KProgressbar.swift in Sources */,
-				C4372E862081F568009F4F91 /* KTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +217,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -265,6 +266,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -281,7 +283,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "KUIKit/KUIKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -297,7 +299,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "KUIKit/KUIKit-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
