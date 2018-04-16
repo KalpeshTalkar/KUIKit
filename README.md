@@ -103,7 +103,7 @@ view.addSubview(kCircularProgressbar)
 # Other features
 **Orientation**
 <br>
-KUIKit offers Orientation structure which is following features:
+KUIKit offers Orientation structure which has following features:
 ```
 // Get current orientation
 let currentOrientation = Orientation.orientation
