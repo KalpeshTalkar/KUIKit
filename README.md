@@ -27,9 +27,10 @@ Apart from the above UI components, KUIKit offers some UI utility functions and 
 
 # License
 
-KUIKit is available under MIT license. See the LICENSE(https://github.com/KalpeshTalkar/KUIKit/blob/master/LICENSE.md) file for more info.
+KUIKit is available under MIT license. See the ![LICENSE](https://github.com/KalpeshTalkar/KUIKit/blob/master/LICENSE.md) file for more info.
 
 # Contact
 
 Kalpesh Talkar
+<br>
 Email: kalpeshtalkar@gmail.com
