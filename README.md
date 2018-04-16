@@ -24,3 +24,12 @@ Apart from the above UI components, KUIKit offers some UI utility functions and 
 ![KUIKit: Screenshot](https://github.com/KalpeshTalkar/KUIKit/blob/master/Screenshots/KUIKit_SS_2.png)
 ![KUIKit: Screenshot](https://github.com/KalpeshTalkar/KUIKit/blob/master/Screenshots/KUIKit_SS_1.png)
 ![KUIKit: GIF](https://github.com/KalpeshTalkar/KUIKit/blob/master/Screenshots/KUIKit_ScreenRecord.gif)
+
+# License
+
+KUIKit is available under MIT license. See the LICENSE(https://github.com/KalpeshTalkar/KUIKit/blob/master/LICENSE.md) file for more info.
+
+# Contact
+
+Kalpesh Talkar
+Email: kalpeshtalkar@gmail.com
