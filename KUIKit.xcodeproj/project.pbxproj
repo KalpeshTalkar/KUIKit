@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C424F492208479B900185088 /* KTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C424F491208479B900185088 /* KTextField.swift */; };
+		C424F493208479D300185088 /* KTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C424F491208479B900185088 /* KTextField.swift */; };
+		C424F49520847AFB00185088 /* KView.swift in Headers */ = {isa = PBXBuildFile; fileRef = C4372E812081F525009F4F91 /* KView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		C424F49620847AFB00185088 /* KButton.swift in Headers */ = {isa = PBXBuildFile; fileRef = C4372E7F2081F506009F4F91 /* KButton.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		C424F49720847AFB00185088 /* KCircularProgressbar.swift in Headers */ = {isa = PBXBuildFile; fileRef = C4372E832081F537009F4F91 /* KCircularProgressbar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		C424F49820847AFB00185088 /* KProgressbar.swift in Headers */ = {isa = PBXBuildFile; fileRef = C4372E892081F65B009F4F91 /* KProgressbar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		C424F49920847AFB00185088 /* UIUtils.swift in Headers */ = {isa = PBXBuildFile; fileRef = C4372E872081F5BE009F4F91 /* UIUtils.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		C424F49A20847AFB00185088 /* KTextField.swift in Headers */ = {isa = PBXBuildFile; fileRef = C424F491208479B900185088 /* KTextField.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4372E742081F3FE009F4F91 /* KUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4372E732081F3FE009F4F91 /* KUIKit.m */; };
 		C4372E752081F3FE009F4F91 /* KUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4372E722081F3FE009F4F91 /* KUIKit.h */; };
 		C4372E802081F506009F4F91 /* KButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E7F2081F506009F4F91 /* KButton.swift */; };
@@ -14,13 +22,11 @@
 		C4372E842081F537009F4F91 /* KCircularProgressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E832081F537009F4F91 /* KCircularProgressbar.swift */; };
 		C4372E882081F5BE009F4F91 /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E872081F5BE009F4F91 /* UIUtils.swift */; };
 		C4372E8A2081F65B009F4F91 /* KProgressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E892081F65B009F4F91 /* KProgressbar.swift */; };
-		C4372EAC2082370B009F4F91 /* KTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372EAB2082370B009F4F91 /* KTextField.swift */; };
 		C4372EB4208240D7009F4F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372EB3208240D7009F4F91 /* AppDelegate.swift */; };
 		C4372EB6208240D7009F4F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372EB5208240D7009F4F91 /* ViewController.swift */; };
 		C4372EB9208240D7009F4F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4372EB7208240D7009F4F91 /* Main.storyboard */; };
 		C4372EBB208240D7009F4F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4372EBA208240D7009F4F91 /* Assets.xcassets */; };
 		C4372EBE208240D7009F4F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4372EBC208240D7009F4F91 /* LaunchScreen.storyboard */; };
-		C4372EC4208242F5009F4F91 /* KTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372EAB2082370B009F4F91 /* KTextField.swift */; };
 		C4372EC5208242F5009F4F91 /* KView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E812081F525009F4F91 /* KView.swift */; };
 		C4372EC6208242F5009F4F91 /* KButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E7F2081F506009F4F91 /* KButton.swift */; };
 		C4372EC7208242F5009F4F91 /* KCircularProgressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4372E832081F537009F4F91 /* KCircularProgressbar.swift */; };
@@ -42,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C424F491208479B900185088 /* KTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTextField.swift; sourceTree = "<group>"; };
 		C4372E6F2081F3FE009F4F91 /* libKUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4372E722081F3FE009F4F91 /* KUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUIKit.h; sourceTree = "<group>"; };
 		C4372E732081F3FE009F4F91 /* KUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUIKit.m; sourceTree = "<group>"; };
@@ -51,7 +58,6 @@
 		C4372E832081F537009F4F91 /* KCircularProgressbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCircularProgressbar.swift; sourceTree = "<group>"; };
 		C4372E872081F5BE009F4F91 /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
 		C4372E892081F65B009F4F91 /* KProgressbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KProgressbar.swift; sourceTree = "<group>"; };
-		C4372EAB2082370B009F4F91 /* KTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTextField.swift; path = "../../../KUIKit Example/Pods/KUIKit/KUIKit/UI Components/KTextField.swift"; sourceTree = "<group>"; };
 		C4372EB1208240D6009F4F91 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4372EB3208240D7009F4F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4372EB5208240D7009F4F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,12 +117,12 @@
 		C4372E7E2081F4F3009F4F91 /* UI Components */ = {
 			isa = PBXGroup;
 			children = (
-				C4372EAB2082370B009F4F91 /* KTextField.swift */,
 				C4372E812081F525009F4F91 /* KView.swift */,
 				C4372E7F2081F506009F4F91 /* KButton.swift */,
 				C4372E832081F537009F4F91 /* KCircularProgressbar.swift */,
 				C4372E892081F65B009F4F91 /* KProgressbar.swift */,
 				C4372E872081F5BE009F4F91 /* UIUtils.swift */,
+				C424F491208479B900185088 /* KTextField.swift */,
 			);
 			path = "UI Components";
 			sourceTree = "<group>";
@@ -136,6 +142,22 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C424F49420847AE100185088 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C424F49520847AFB00185088 /* KView.swift in Headers */,
+				C424F49620847AFB00185088 /* KButton.swift in Headers */,
+				C424F49720847AFB00185088 /* KCircularProgressbar.swift in Headers */,
+				C424F49820847AFB00185088 /* KProgressbar.swift in Headers */,
+				C424F49920847AFB00185088 /* UIUtils.swift in Headers */,
+				C424F49A20847AFB00185088 /* KTextField.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		C4372E6E2081F3FE009F4F91 /* KUIKit */ = {
 			isa = PBXNativeTarget;
@@ -143,6 +165,7 @@
 			buildPhases = (
 				C4372E6B2081F3FE009F4F91 /* Sources */,
 				C4372E6C2081F3FE009F4F91 /* Frameworks */,
+				C424F49420847AE100185088 /* Headers */,
 				C4372E6D2081F3FE009F4F91 /* CopyFiles */,
 			);
 			buildRules = (
@@ -231,11 +254,11 @@
 			files = (
 				C4372E742081F3FE009F4F91 /* KUIKit.m in Sources */,
 				C4372E802081F506009F4F91 /* KButton.swift in Sources */,
-				C4372EAC2082370B009F4F91 /* KTextField.swift in Sources */,
 				C4372E842081F537009F4F91 /* KCircularProgressbar.swift in Sources */,
 				C4372E882081F5BE009F4F91 /* UIUtils.swift in Sources */,
 				C4372E822081F525009F4F91 /* KView.swift in Sources */,
 				C4372E8A2081F65B009F4F91 /* KProgressbar.swift in Sources */,
+				C424F492208479B900185088 /* KTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,13 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4372EC5208242F5009F4F91 /* KView.swift in Sources */,
-				C4372EC4208242F5009F4F91 /* KTextField.swift in Sources */,
 				C4372EB6208240D7009F4F91 /* ViewController.swift in Sources */,
 				C4372EB4208240D7009F4F91 /* AppDelegate.swift in Sources */,
 				C4372EC6208242F5009F4F91 /* KButton.swift in Sources */,
 				C4372EC7208242F5009F4F91 /* KCircularProgressbar.swift in Sources */,
 				C4372EC8208242F5009F4F91 /* KProgressbar.swift in Sources */,
 				C4372EC9208242F5009F4F91 /* UIUtils.swift in Sources */,
+				C424F493208479D300185088 /* KTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

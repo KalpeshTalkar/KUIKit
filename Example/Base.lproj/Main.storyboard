@@ -80,10 +80,9 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEu-dG-Jk3" customClass="KButton" customModule="Example" customModuleProvider="target">
-                                <rect key="frame" x="16" y="192" width="70" height="35"/>
+                                <rect key="frame" x="16" y="192" width="46" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="PXC-IE-wTU"/>
-                                    <constraint firstAttribute="width" constant="70" id="hQQ-W0-SwB"/>
                                 </constraints>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
@@ -96,17 +95,10 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KUIKit Example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2r-3Z-6E2">
-                                <rect key="frame" x="99" y="31.5" width="122.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAH-w6-LWb" customClass="KButton" customModule="Example" customModuleProvider="target">
-                                <rect key="frame" x="122" y="195" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAH-w6-LWb" customClass="KButton" customModule="Example" customModuleProvider="target">
+                                <rect key="frame" x="78" y="190" width="118" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="4P9-iS-SL4"/>
-                                    <constraint firstAttribute="width" constant="150" id="jFg-Tn-8KN"/>
                                 </constraints>
                                 <state key="normal" title="Change Progress"/>
                                 <userDefinedRuntimeAttributes>
@@ -150,10 +142,17 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KUIKit Example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2r-3Z-6E2">
+                                <rect key="frame" x="99" y="31" width="122.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="W2r-3Z-6E2" firstAttribute="centerY" secondItem="muL-ox-Gf6" secondAttribute="centerY" constant="10" id="0PB-iy-jV4"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yAH-w6-LWb" secondAttribute="trailing" constant="20" symbolic="YES" id="6ZH-Yy-YRQ"/>
                             <constraint firstItem="W2r-3Z-6E2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Me-Sd-1yU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EkC-V4-ltQ" secondAttribute="trailing" constant="16" id="BWv-2Z-fDS"/>
                             <constraint firstItem="LEu-dG-Jk3" firstAttribute="top" secondItem="gGz-Ny-MCg" secondAttribute="bottom" constant="16" id="DYa-dg-fYX"/>
