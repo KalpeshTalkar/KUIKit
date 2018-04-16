@@ -135,6 +135,64 @@ if Orientation.isFaceDown {
 }
 ```
 
+**Device**
+<br>
+KUIKit also offers the Device structure that tells you whether the device is iPad or iPhone.
+```
+// Get current device
+let device = Device.Current
+
+// Check if the device is iPad or iPhone
+if Device.isiPad {
+    // It's an iPad
+}
+if Device.isiPhone {
+    // It's an iPhone
+}
+```
+
+**Screen**
+<br>
+KUIKit also offers Screen structure which helps you get information about device's main screen.
+```
+// Get main screen
+let screen = Screen.Main
+
+// Other properties
+let scale = Screen.ScreenScale
+let size = Screen.ScreenSize
+let height = Screen.ScreenHeight
+let width = Screen.ScreenWidth
+```
+
+**UIView Extension**
+No worries even if your UIComponent or your view is not from KUIKit. You can still customise it.
+<br>
+KUIKit has few extensions for UIView.
+<br>
+```
+// If your view is not the sub class of KView,
+// you can stil be able to customise it programmatically using KUIKit
+let myView = UIView()
+// Add corner radius with KUIKit
+myView.clipWithCornerRadius(radius: 5)
+// Add border of your preferred width and color using KUIKit
+myView.addBorder(width: 1, color: UIColor.red)
+// Apply card design to your view using KUIKit
+myView.applyCardDesign()
+view.addSubview(myView)
+
+// applyCardDesign() uses the constants from the DefaultCardStyle structure.
+// DefaultCardStyle has following properties.
+DefaultCardStyle.CardBorderColor
+DefaultCardStyle.CardBorderWidth
+DefaultCardStyle.CardCornerRadius
+DefaultCardStyle.CardShadowColor
+DefaultCardStyle.CardShadowOffset
+DefaultCardStyle.CardShadowOpacity
+DefaultCardStyle.CardShadowRadius
+```
+
 # Contact
 
 Kalpesh Talkar
