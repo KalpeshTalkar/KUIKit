@@ -5,7 +5,8 @@ The framework includes following UI components:
 ## Supports iOS 10 +
 
 ## Cocoapods
-Add the following to your target in your project's pd file
+Add the following to your target in your project's pod file
+<br>
 ```pod 'FSCalendar'```
 
 ## UI Components:
