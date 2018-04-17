@@ -7,7 +7,7 @@ The framework includes following UI components:
 ## Cocoapods
 Add the following to your target in your project's pod file
 <br>
-```pod 'FSCalendar'```
+```pod 'KUIKit'```
 
 ## UI Components:
 
